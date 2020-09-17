@@ -1,29 +1,26 @@
 import React from "react";
-import Container from "../components/Container";
-import ProfilePic from "../images/profilePic.jpg";
+import ProfilePic from "../components/ProfilePic";
+import Introduction from "../components/Introduction";
+import Link from "../components/Link";
+import GithubIcon from "../stuff/Github_Icons/GitHub-Mark-64px.png";
+import LinkedInIcon from "../stuff/linkedIn_Icon.png";
+import DownloadResume from "../stuff/downloadResume.png";
+import MyResume from "../stuff/WesleyResume.pdf";
 
 export default function About() {
   return (
-    <Container>
-      <img
-        src={ProfilePic}
-        alt="Profile"
-        style={{
-          float: "left",
-          width: "180px",
-          borderRadius: "50%",
-          marginLeft: "20px",
-        }}
-      />
-      <div
-        style={{
-          borderBottom: "dotted teal 5px",
-          fontSize: "1.8rem",
-          fontWeight: "bold",
-        }}
-      >
-        About Me
-      </div>
-    </Container>
+    <div>
+      <ProfilePic />
+      <Introduction />
+      <Link link="https://github.com/wesaboo">
+        <img src={GithubIcon} alt="Github" /> Github
+      </Link>
+      <Link link="https://github.com/wesaboo">
+        <img src={LinkedInIcon} alt="LinkedIn" /> LinkedIn
+      </Link>
+      <a href={MyResume} download>
+        <img src={DownloadResume} alt="Resume_Download" /> Resume
+      </a>
+    </div>
   );
 }

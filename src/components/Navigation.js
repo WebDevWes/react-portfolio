@@ -9,6 +9,7 @@ import Box from "@material-ui/core/Box";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
+import Container from "../components/Container";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -23,7 +24,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box p={3}>
-          <Typography component={'span'}>{children}</Typography>
+          <Typography component={"span"}>{children}</Typography>
         </Box>
       )}
     </div>
@@ -61,27 +62,45 @@ export default function SimpleTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{ backgroundColor: "#6CA4C8" }}>
         <Tabs
           value={value}
           onChange={handleChange}
           aria-label="simple tabs example"
         >
-          <Tab href="/about" onClick={preventDefault} label="About Me" {...a11yProps(0)} />
+          <Tab
+            href="/about"
+            onClick={preventDefault}
+            label="About Me"
+            {...a11yProps(0)}
+          />
 
-          <Tab href="/projects" onClick={preventDefault} label="Projects" {...a11yProps(1)} />
+          <Tab
+            href="/projects"
+            onClick={preventDefault}
+            label="Projects"
+            {...a11yProps(1)}
+          />
 
-          <Tab href="/contact" onClick={preventDefault} label="Contact Me" {...a11yProps(2)} />
+          <Tab
+            href="/contact"
+            onClick={preventDefault}
+            label="Contact Me"
+            {...a11yProps(2)}
+          />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
+        <Container>About Me</Container>
         <About />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Projects />
+      <Container>My Projects</Container>
+      <Projects />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <Contact />
+      <Container>Contact Me</Container>
+      <Contact />
       </TabPanel>
     </div>
   );
