@@ -21,7 +21,7 @@ export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ marginBottom: "50px" }}>
       <CardActionArea>
         <CardMedia
           className={classes.media}

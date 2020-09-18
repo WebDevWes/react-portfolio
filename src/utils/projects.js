@@ -31,6 +31,70 @@ const projects = [
         "deployed_link": "https://wesaboo.github.io/DayPlanner/",
         "repo_link": "https://github.com/wesaboo/DayPlanner"
     },
+    {
+        "id": 5,
+        "title": "Travel Nurses Job Spot",
+        "src": "/images/TravelNurse.png",
+        "description": "Developed with the intention of helping Travel Nurses find the most financially viable job",
+        "deployed_link": "https://staffbotsteve.github.io/lazy-loaders/",
+        "repo_link": "https://github.com/wesaboo/lazy-loaders"
+    },
+    {
+        "id": 6,
+        "title": "Note Taker",
+        "src": "/images/NoteTaker.png",
+        "description": "Generic Note Taking web app",
+        "deployed_link": "https://safe-caverns-86515.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/NoteTaker"
+    },
+    {
+        "id": 7,
+        "title": "Eat-Da-Burger",
+        "src": "/images/NomBurgers.png",
+        "description": "Useless App made to better learn MySQL",
+        "deployed_link": "https://desolate-refuge-10655.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/Eat-Da-Burger"
+    },
+    {
+        "id": 8,
+        "title": "Collector's Cache",
+        "src": "/images/CollectorsCache.png",
+        "description": "Web App to keep track of Card collection, and retrieve market values",
+        "deployed_link": "https://immense-spire-70706.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/Project-2"
+    },
+    {
+        "id": 9,
+        "title": "Fitness Tracker",
+        "src": "/images/FitnessTracker.png",
+        "description": "Web App to keep track your workout, and provides a table to track total weight lifted",
+        "deployed_link": "https://still-lake-01483.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/Fitness-Tracker"
+    },
+    {
+        "id": 10,
+        "title": "Budget Tracker",
+        "src": "/images/BudgetTracker.png",
+        "description": "Web App to keep track of your budget, and provides a graph to show visual representation of spending over time",
+        "deployed_link": "https://secure-headland-85951.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/Budget-Tracker"
+    },
+    {
+        "id": 11,
+        "title": "Employee Directory",
+        "src": "/images/EmployeeDirectory.png",
+        "description": "Dynamically generated page using React",
+        "deployed_link": "https://wesaboo.github.io/employee-directory-react/",
+        "repo_link": "https://github.com/wesaboo/employee-directory-react"
+    },
+    {
+        "id": 12,
+        "title": "Google Books Search",
+        "src": "/images/GoogleBooks2.png",
+        "description": "Find and store books onto MongoDB using Google Books API",
+        "deployed_link": "https://secure-ravine-38448.herokuapp.com/",
+        "repo_link": "https://github.com/wesaboo/google-books-search"
+    },
 ]
 
 export default projects;
