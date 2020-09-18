@@ -61,7 +61,7 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root} style={{backgroundColor: "#E0E0E0"}}>
+    <div className={classes.root} style={{ backgroundColor: "#E0E0E0" }}>
       <AppBar position="static" style={{ backgroundColor: "#6CA4C8" }}>
         <Tabs
           value={value}
@@ -95,12 +95,13 @@ export default function SimpleTabs() {
         <About />
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <Container>My Projects</Container>
-      <Projects />
+        <Container>My Projects</Container>
+        <Projects />
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <Container>Contact Me</Container>
-      <Contact />
+        <Container>Contact Me</Container>
+        <h4>You can also email me at wesaboo@gmail.com</h4>
+        <Contact />
       </TabPanel>
     </div>
   );
