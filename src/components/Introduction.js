@@ -3,24 +3,20 @@ import React from "react";
 export default function Introduction() {
   return (
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu rhoncus
-      mi, ut interdum purus. Maecenas interdum nisl vel tellus ultrices cursus
-      quis et diam. Phasellus tincidunt vehicula sapien sed tristique. Etiam sed
-      tortor ornare justo volutpat porttitor et vitae urna. Vestibulum fermentum
-      ante nec feugiat venenatis. Morbi pharetra nisl sed nisl commodo pulvinar.
-      Nunc sed iaculis urna. Nulla mattis consequat felis, nec ornare mauris
-      tempus ac. Etiam vehicula tincidunt dui, non commodo ante volutpat at.
-      Mauris congue lectus est, sollicitudin dapibus ante porttitor sed.
-      Curabitur tristique pretium fermentum. Vivamus lorem turpis, blandit ut
-      maximus ut, rhoncus in velit. Maecenas eu ipsum nec leo bibendum
-      tristique. Proin tincidunt, diam in ultricies vehicula, eros nunc molestie
-      metus, ac cursus elit urna efficitur sapien. Suspendisse aliquam elit nec
-      tempus condimentum. Nulla sit amet laoreet est. Sed elementum aliquam
-      lacus sed iaculis. Nulla et molestie augue, eget euismod odio. Maecenas
-      eleifend tortor ac venenatis hendrerit. Suspendisse potenti. Phasellus
-      vehicula ipsum in velit accumsan pulvinar. Cras et sagittis sem, a
-      elementum dui. Nam eget porta est. Donec libero lacus, eleifend vitae
-      sapien id, ornare elementum tortor.
+      My name is Wesley, I've been a tech enthusiast all my life; I love taking
+      apart technology to see how things ticks, espescially for older retro tech
+      where you can still physically see the things. I have worked in
+      distribution for a while and started trying to find ways to automate
+      various daily data input tasks; I was able to replicate most of this using
+      Excel and copy/paste. In my pursuit to completely automate things it had
+      led me towards discovering programming and utilizing API calls and
+      database. Programming is quite a rabbit hole that I've jumped in, the
+      frustration and various emotions I feel when programming is all worth it
+      at the end when I have a functional software that does what I want! I am
+      always eager to learn new things, be it new frameworks or even another
+      language. The next language I intend to look into would be Python/Django.
+      I'm also very open to picking up random projects to work on to improve
+      myself!
     </p>
   );
 }
