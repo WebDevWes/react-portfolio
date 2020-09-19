@@ -61,7 +61,7 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root} style={{ backgroundColor: "#E0E0E0" }}>
+    <div className={classes.root} style={{ backgroundColor: "#E0E0E0", minHeight: "97vh" }}>
       <AppBar position="static" style={{ backgroundColor: "#6CA4C8" }}>
         <Tabs
           value={value}
