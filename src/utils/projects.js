@@ -95,6 +95,14 @@ const projects = [
         "deployed_link": "https://secure-ravine-38448.herokuapp.com/",
         "repo_link": "https://github.com/wesaboo/google-books-search"
     },
+    {
+        "id": 13,
+        "title": "Hi-Ho Job Search",
+        "src": process.env.PUBLIC_URL+ "/images/HiHoJobSearch.png",
+        "description": "Find and store books onto MongoDB using Google Books API",
+        "deployed_link": "https://hi-ho-frontend.herokuapp.com/",
+        "repo_link": "https://github.com/staffbotsteve/hi-ho-frontend"
+    },
 ]
 
 export default projects;
